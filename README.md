@@ -43,11 +43,11 @@ import { merge } from './src/mergeSorted';
 
 // Example 1: Merge three sorted arrays
 const a = [1, 4, 7];
-const b = [9, 5, 3];  // Will be reversed to [3, 5, 9]
-const c = [8, 10, 11];
+const b = [9, 5, 2];  // Will be reversed to [2, 5, 9]
+const c = [8, 12, 15];
 
 const result = merge(a, b, c);
-console.log(result); // [1, 3, 4, 5, 7, 8, 9, 10, 11]
+console.log(result); // [1, 2, 4, 5, 7, 8, 9, 12, 15]
 ```
 
 ### More Examples
