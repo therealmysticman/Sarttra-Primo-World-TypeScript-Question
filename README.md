@@ -26,7 +26,6 @@ This project implements a `merge` function that takes three sorted arrays as inp
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd Primo_Typescript_Project
 ```
 
 2. Install dependencies:
@@ -101,7 +100,7 @@ This compiles the TypeScript code to JavaScript in the `dist` directory.
 ### Project Structure
 
 ```
-Primo_Typescript_Project/
+Sarttra-Primo-World-TypeScript-Question/
 ├── src/
 │   └── mergeSorted.ts          # Main implementation
 ├── tests/
